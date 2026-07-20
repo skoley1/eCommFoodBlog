@@ -1,0 +1,73 @@
+/* =============================================
+   FOOTER
+   ============================================= */
+.site-footer {
+  background: #1a1108;
+  color: rgba(255,255,255,0.8);
+  margin-top: auto;
+}
+
+.footer-inner {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 48px;
+  padding-top: 56px;
+  padding-bottom: 48px;
+}
+
+.footer-brand .logo-text {
+  color: #f5a882;
+}
+
+.footer-brand .logo-icon {
+  font-size: 20px;
+}
+
+.footer-tagline {
+  margin-top: 12px;
+  font-size: 14px;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.6;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links h4 {
+  font-family: var(--font-serif);
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.footer-links a {
+  font-size: 14px;
+  color: rgba(255,255,255,0.6);
+  transition: color var(--transition);
+}
+
+.footer-links a:hover {
+  color: #f5a882;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 20px 24px;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(255,255,255,0.4);
+}
+
+@media (max-width: 680px) {
+  .footer-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+}

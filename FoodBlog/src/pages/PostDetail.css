@@ -1,0 +1,253 @@
+/* =============================================
+   POST DETAIL PAGE
+   ============================================= */
+
+/* Cover hero */
+.post-detail__cover {
+  position: relative;
+  height: 480px;
+  overflow: hidden;
+}
+
+.post-detail__cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post-detail__cover-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.2) 60%, transparent 100%);
+}
+
+.post-detail__cover-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 40px;
+  color: #fff;
+}
+
+.post-detail__category {
+  display: inline-block;
+  background: var(--color-accent);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 14px;
+}
+
+.post-detail__title {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  color: #fff;
+  margin-bottom: 16px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.post-detail__meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: rgba(255,255,255,0.85);
+}
+
+.post-detail__meta img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255,255,255,0.4);
+}
+
+.post-detail__meta div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.author-name {
+  font-weight: 700;
+}
+
+.meta-sep {
+  opacity: 0.5;
+}
+
+/* Layout */
+.post-detail__layout {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 56px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  align-items: start;
+}
+
+/* Article */
+.post-detail__body {
+  min-width: 0;
+}
+
+.post-detail__excerpt {
+  font-size: 1.15rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  border-left: 3px solid var(--color-accent);
+  padding-left: 20px;
+  margin-bottom: 40px;
+  line-height: 1.7;
+}
+
+.post-detail__content {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.post-detail__content h2 {
+  font-size: 1.65rem;
+  margin: 40px 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--color-surface-2);
+}
+
+.post-detail__content h3 {
+  font-size: 1.2rem;
+  margin: 28px 0 12px;
+  color: var(--color-accent);
+}
+
+.post-detail__content p {
+  margin-bottom: 16px;
+}
+
+.post-detail__content ul {
+  margin: 16px 0 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.post-detail__content ul li {
+  list-style: disc;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.post-detail__content hr {
+  border: none;
+  border-top: 2px solid var(--color-surface-2);
+  margin: 40px 0;
+}
+
+.post-detail__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 40px;
+  padding-top: 28px;
+  border-top: 1px solid var(--color-border);
+}
+
+/* Sidebar */
+.post-detail__sidebar {
+  position: sticky;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sidebar-block {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 20px;
+}
+
+.author-card {
+  text-align: center;
+}
+
+.author-card__avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 12px;
+  border: 3px solid var(--color-accent-light);
+}
+
+.author-card h4 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.author-card p {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+.sidebar-block h3 {
+  font-size: 15px;
+  font-family: var(--font-serif);
+  margin-bottom: 14px;
+}
+
+.related-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.related-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+  color: var(--color-text);
+  font-weight: 500;
+  transition: color var(--transition);
+}
+
+.related-item:hover {
+  color: var(--color-accent);
+}
+
+.related-item img {
+  width: 52px;
+  height: 40px;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* Back link */
+.post-detail__back {
+  padding-bottom: 56px;
+}
+
+/* =============================================
+   RESPONSIVE
+   ============================================= */
+@media (max-width: 860px) {
+  .post-detail__layout {
+    grid-template-columns: 1fr;
+  }
+
+  .post-detail__sidebar {
+    position: static;
+  }
+
+  .post-detail__cover {
+    height: 320px;
+  }
+}
