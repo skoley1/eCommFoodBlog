@@ -55,7 +55,14 @@ export default function About() {
               const authorPosts = posts.filter((p) => p.author.name === author.name);
               return (
                 <div key={author.name} className="author-profile">
-                  <img src={author.avatar} alt={author.name} className="author-profile__avatar" />
+                  <img
+                    src={author.avatar}
+                    alt={author.name}
+                    className={`author-profile__avatar${
+                      author.name === 'Sudeep Koley' ? ' avatar--sudeep' :
+                      author.name === 'Javeed Shaik'  ? ' avatar--javeed'  : ''
+                    }`}
+                  />
                   <h3>{author.name}</h3>
                   <p>{author.bio}</p>
                   <div className="author-profile__stat">
