@@ -10,7 +10,7 @@ export default function About() {
       <div className="page-hero">
         <div className="container">
           <h1>About Food@eComm</h1>
-          <p>Three cooks, one blog, and a shared passion for putting great food on the table.</p>
+          <p>Five cooks, one blog, and a shared passion for putting great food on the table.</p>
         </div>
       </div>
 

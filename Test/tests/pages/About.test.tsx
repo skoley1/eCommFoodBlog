@@ -21,7 +21,7 @@ describe('About page', () => {
   it('renders the sub-headline', () => {
     renderAbout();
     expect(
-      screen.getByText('Three cooks, one blog, and a shared passion for putting great food on the table.')
+      screen.getByText('Five cooks, one blog, and a shared passion for putting great food on the table.')
     ).toBeInTheDocument();
   });
 
