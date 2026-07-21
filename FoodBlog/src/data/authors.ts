@@ -1,19 +1,35 @@
 import type { Author } from '../types';
 
+import AP from '../assets/AP.png';
+import ARP from '../assets/ARP.png';
+import JS from '../assets/JS.png';
+import NS from '../assets/NS.png';
+import SK from '../assets/SK.png';
+
 export const authors: Record<string, Author> = {
-  sofia: {
-    name: 'Sofia Hartley',
-    avatar: 'https://i.pravatar.cc/150?img=47',
-    bio: 'Passionate home cook and food photographer based in Barcelona. Obsessed with Mediterranean flavours and slow-cooking techniques.',
+  arijit: {
+    name: 'Arijit Pal',
+    avatar: AP,
+    bio: 'Passionate home cook and food photographer',
   },
-  marco: {
-    name: 'Marco Ricci',
-    avatar: 'https://i.pravatar.cc/150?img=12',
-    bio: 'Professional chef turned food blogger. Italian by heart, global by palate. Specialises in pasta, risotto, and modern Italian cuisine.',
+  sudeep: {
+    name: 'Sudeep Koley',
+    avatar: SK,
+    bio: 'Professional chef turned food blogger.',
   },
-  priya: {
-    name: 'Priya Nair',
-    avatar: 'https://i.pravatar.cc/150?img=48',
-    bio: 'Spice enthusiast and recipe developer from Kerala. Bringing authentic Indian home cooking to kitchens around the world.',
+  arpan: {
+    name: 'Arpan Paramanik',
+    avatar: ARP,
+    bio: 'Spice enthusiast and recipe developer from Kerala.',
+  },
+  nilanjan: {
+    name: 'Nilanjan Sarkar',
+    avatar: NS,
+    bio: 'Bringing authentic Indian home cooking to kitchens around the world.',
+  },
+  javeed: {
+    name: 'Javeed Shaik',
+    avatar: JS,
+    bio: 'Indian home cooking to kitchens around the world.',
   },
 };
