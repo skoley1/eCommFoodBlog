@@ -29,7 +29,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Food@eComm. Made with ❤️ and good food.</p>
+        <p>© {new Date().getFullYear()} Food@eComm. Powered by IBM Bob & ICA.</p>
       </div>
     </footer>
   );

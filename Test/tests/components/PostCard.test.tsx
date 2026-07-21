@@ -17,7 +17,7 @@ const mockPost: Post = {
     avatar: 'https://i.pravatar.cc/150?img=47',
     bio: 'Passionate home cook.',
   },
-  publishedAt: '2024-03-15',
+  publishedAt: '2026-03-15',
   readingTime: 6,
   coverImage: 'https://example.com/cover.jpg',
   featured: false,
@@ -105,7 +105,7 @@ describe('PostCard component', () => {
 
   it('renders a formatted publish date', () => {
     renderCard();
-    // 2024-03-15 → "15 Mar 2024" in en-GB locale
-    expect(screen.getByText(/Mar 2024/)).toBeInTheDocument();
+    // 2026-03-15 → "15 Mar 2026" in en-GB locale
+    expect(screen.getByText(/Mar 2026/)).toBeInTheDocument();
   });
 });
