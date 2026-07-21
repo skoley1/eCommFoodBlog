@@ -673,7 +673,7 @@ Stir in a generous knob of ghee and garnish with fresh coriander. Serve hot with
     author: authors.arijit,
     publishedAt: '2026-06-28',
     readingTime: 6,
-    coverImage: 'https://images.unsplash.com/photo-1645177628172-a94c1f796dfc?w=800&auto=format&fit=crop',
+    coverImage: 'https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=800&auto=format&fit=crop',
     featured: false,
   },
 ];
