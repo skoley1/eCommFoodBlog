@@ -433,7 +433,7 @@ Taste for seasoning. Spread into a shallow bowl, swirl with the back of a spoon,
     author: authors.priya,
     publishedAt: '2026-05-15',
     readingTime: 5,
-    coverImage: 'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=800&auto=format&fit=crop',
+    coverImage: 'https://images.unsplash.com/photo-1590301157890-4810ed352733?w=800&auto=format&fit=crop',
     featured: true,
   },
 ];
