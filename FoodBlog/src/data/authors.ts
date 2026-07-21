@@ -16,4 +16,14 @@ export const authors: Record<string, Author> = {
     avatar: 'https://i.pravatar.cc/150?img=48',
     bio: 'Spice enthusiast and recipe developer from Kerala. Bringing authentic Indian home cooking to kitchens around the world.',
   },
+  sudeep: {
+    name: 'Sudeep Koley',
+    avatar: 'https://i.pravatar.cc/150?img=33',
+    bio: 'Professional chef turned food blogger.',
+  },
+  arijit: {
+    name: 'Arijit Pal',
+    avatar: 'https://i.pravatar.cc/150?img=57',
+    bio: 'Passionate home cook and food photographer.',
+  },
 };
