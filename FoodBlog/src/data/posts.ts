@@ -436,4 +436,244 @@ Taste for seasoning. Spread into a shallow bowl, swirl with the back of a spoon,
     coverImage: 'https://images.unsplash.com/photo-1590301157890-4810ed352733?w=800&auto=format&fit=crop',
     featured: true,
   },
+  {
+    id: '9',
+    slug: 'dal-tadka',
+    title: 'Classic Dal Tadka — The Soul of Indian Comfort Food',
+    excerpt:
+      'A smoky, spiced yellow lentil dish finished with a sizzling ghee tadka. Simple ingredients, extraordinary flavour — ready in under 45 minutes.',
+    content: `
+## The Dish That Feels Like Home
+
+Dal Tadka is arguably the most comforting dish in Indian cuisine. Yellow lentils slow-simmered with tomatoes and onions, then crowned with a blazing hot tempering of ghee, cumin, garlic and dried chillies. It's humble, nourishing and absolutely addictive.
+
+### Ingredients (serves 4)
+
+**Dal:**
+- 250 g yellow split lentils (toor dal), rinsed
+- 1 medium onion, finely chopped
+- 2 medium tomatoes, chopped
+- 1 tsp turmeric
+- 1 tsp cumin seeds
+- 1 tsp ginger-garlic paste
+- 1 green chilli, slit
+- Salt to taste
+- 800 ml water
+
+**Tadka (tempering):**
+- 3 tbsp ghee
+- 1 tsp cumin seeds
+- 4 garlic cloves, thinly sliced
+- 2 dried red chillies
+- ½ tsp Kashmiri chilli powder
+- Pinch of asafoetida (hing)
+- Fresh coriander, to garnish
+
+### Method
+
+**1. Cook the Dal**
+Pressure cook (or simmer covered) the rinsed lentils with water, turmeric and salt for 20–25 minutes until completely soft and mushy. Whisk smooth.
+
+**2. Build the Base**
+In a heavy pan, heat 1 tbsp ghee. Fry cumin seeds until they splutter. Add onion and cook until golden — about 8 minutes. Add ginger-garlic paste and green chilli; cook 2 minutes. Add tomatoes and cook until pulpy, about 10 minutes.
+
+**3. Combine**
+Add the cooked dal to the masala base. Stir well, adjust salt and simmer for 10 minutes. Add water if needed — it should be thick but pourable.
+
+**4. Make the Tadka**
+In a small pan, heat ghee until smoking. Add cumin seeds, garlic slices and dried chillies. When the garlic turns golden, add asafoetida and chilli powder. Immediately pour this sizzling tadka over the dal.
+
+**5. Garnish and Serve**
+Top with fresh coriander. Serve hot with steamed basmati rice or warm roti.
+
+### Tips
+- The tadka is everything — make it at the last second and pour it on just before serving.
+- A squeeze of lemon at the table brightens the whole dish.
+    `,
+    category: 'dinner',
+    tags: ['indian', 'lentils', 'vegetarian', 'comfort food', 'vegan'],
+    author: authors.sudeep,
+    publishedAt: '2026-06-05',
+    readingTime: 7,
+    coverImage: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&auto=format&fit=crop',
+    featured: false,
+  },
+  {
+    id: '10',
+    slug: 'masala-chai',
+    title: 'Authentic Masala Chai from Scratch',
+    excerpt:
+      'Bold, warming and deeply aromatic — learn to brew the real Indian spiced tea that no café can replicate. Ready in 10 minutes.',
+    content: `
+## India's Favourite Cup
+
+Masala chai is not a trend — it's a ritual. Brewed strong with whole spices, ginger and full-fat milk, a properly made cup is worlds apart from any powdered mix or syrup-based imitation.
+
+### Ingredients (serves 2)
+
+- 300 ml whole milk
+- 200 ml water
+- 2 tsp strong black tea (Assam or Darjeeling)
+- 2 tsp sugar (or to taste)
+
+**Spice mix (freshly ground):**
+- 4 green cardamom pods, crushed
+- 1 small cinnamon stick
+- 3 cloves
+- 4 black peppercorns
+- 1 tsp freshly grated ginger
+
+### Method
+
+**1. Crush the Spices**
+Use a mortar and pestle to lightly crush the cardamom, cinnamon, cloves and peppercorns. You want them cracked, not powdered.
+
+**2. Simmer**
+Bring the water to a boil in a small saucepan. Add the crushed spices and grated ginger. Simmer for 2 minutes to bloom the flavours.
+
+**3. Add Tea**
+Add the tea leaves and simmer for 1 minute. The brew should be deep brown.
+
+**4. Add Milk**
+Pour in the milk and bring to a rolling boil, stirring occasionally. Reduce heat and simmer for 3 minutes until the chai turns a rich caramel colour.
+
+**5. Sweeten and Strain**
+Add sugar to taste. Strain through a fine sieve into cups and serve immediately.
+
+### Variations
+- **Cutting Chai:** Use less milk and more water for a lighter brew.
+- **Karak Chai:** Extra tea and extra ginger for a stronger, more intense cup.
+- **Saffron Chai:** Add 2–3 strands of saffron with the spices for a festive touch.
+    `,
+    category: 'drinks',
+    tags: ['indian', 'tea', 'chai', 'drinks', 'vegetarian'],
+    author: authors.sudeep,
+    publishedAt: '2026-06-12',
+    readingTime: 5,
+    coverImage: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&auto=format&fit=crop',
+    featured: false,
+  },
+  {
+    id: '11',
+    slug: 'paneer-tikka',
+    title: 'Smoky Paneer Tikka on the Grill',
+    excerpt:
+      'Marinated cottage cheese cubes grilled to perfection — charred on the outside, soft within. A vegetarian showstopper that rivals any kebab.',
+    content: `
+## The Vegetarian Kebab That Steals the Show
+
+Paneer Tikka is proof that vegetarian food can be every bit as bold and satisfying as meat dishes. The key is a punchy yoghurt marinade and enough heat to get real char on the edges.
+
+### Ingredients (serves 4)
+
+**Marinade:**
+- 400 g paneer, cut into 4 cm cubes
+- 150 ml thick yoghurt
+- 1 tbsp lemon juice
+- 1 tsp Kashmiri chilli powder
+- 1 tsp garam masala
+- 1 tsp cumin powder
+- 1 tsp coriander powder
+- 1 tsp turmeric
+- 1 tbsp ginger-garlic paste
+- 2 tbsp mustard oil (or neutral oil)
+- Salt to taste
+
+**Vegetables (for skewering):**
+- 1 red onion, cut into chunks
+- 1 green pepper, cut into chunks
+- 1 red pepper, cut into chunks
+
+**To serve:** mint chutney, sliced onion rings, lemon wedges, chaat masala
+
+### Method
+
+**1. Make the Marinade**
+Whisk together all marinade ingredients in a large bowl. Taste for seasoning — it should be boldly spiced.
+
+**2. Marinate**
+Add paneer cubes and vegetables. Toss gently to coat. Cover and refrigerate for at least 2 hours (overnight gives best results).
+
+**3. Skewer**
+Thread paneer and vegetables alternately onto metal or soaked wooden skewers.
+
+**4. Grill**
+Grill over high heat (barbecue, griddle pan, or oven grill at 240°C) for 10–12 minutes, turning every 3 minutes, until well charred on all sides.
+
+**5. Serve**
+Dust with chaat masala, squeeze lemon juice over and serve immediately with mint chutney.
+
+### Tips
+- Mustard oil adds authentic flavour — don't skip it.
+- Let the grill get properly hot before adding the skewers — you want char, not steam.
+- Press paneer lightly with a towel before marinating to remove excess moisture.
+    `,
+    category: 'snacks',
+    tags: ['indian', 'paneer', 'vegetarian', 'grill', 'kebab'],
+    author: authors.arijit,
+    publishedAt: '2026-06-20',
+    readingTime: 6,
+    coverImage: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=800&auto=format&fit=crop',
+    featured: false,
+  },
+  {
+    id: '12',
+    slug: 'khichdi',
+    title: 'One-Pot Masala Khichdi — Wholesome & Ready in 30 Minutes',
+    excerpt:
+      'The ultimate Indian one-pot meal — spiced rice and lentils cooked together until silky smooth. Nourishing, easy and endlessly satisfying.',
+    content: `
+## The Original Comfort Bowl
+
+Long before grain bowls were a food trend, India had khichdi. This humble dish of rice and lentils cooked together is the food Indians turn to when they need warmth, nourishment or simply something quick and deeply satisfying.
+
+### Ingredients (serves 4)
+
+- 200 g basmati rice, rinsed
+- 100 g yellow moong dal (split), rinsed
+- 3 tbsp ghee
+- 1 tsp cumin seeds
+- 1 bay leaf
+- 1 medium onion, finely chopped
+- 2 garlic cloves, minced
+- 1 tsp ginger, grated
+- 2 medium tomatoes, chopped
+- 1 tsp turmeric
+- 1 tsp cumin powder
+- 1 tsp coriander powder
+- ½ tsp garam masala
+- Salt to taste
+- 900 ml water or light vegetable stock
+- Fresh coriander and a knob of ghee, to finish
+
+### Method
+
+**1. Temper the Spices**
+Heat ghee in a deep heavy pot over medium heat. Add cumin seeds and bay leaf. When the seeds splutter, add the onion and cook until golden — about 8 minutes.
+
+**2. Build the Masala**
+Add garlic and ginger; cook 2 minutes. Add tomatoes and all ground spices. Cook until the tomatoes break down and ghee separates — about 8 minutes.
+
+**3. Add Rice and Dal**
+Add the rinsed rice and dal. Stir to coat in the masala for 2 minutes.
+
+**4. Cook**
+Pour in water or stock, season with salt. Bring to a boil, then cover and simmer on low heat for 20–25 minutes, stirring occasionally, until the rice and dal are completely soft and merged into a thick, porridge-like consistency.
+
+**5. Finish**
+Stir in a generous knob of ghee and garnish with fresh coriander. Serve hot with yoghurt, pickle and papad on the side.
+
+### Why It Works
+- The moong dal breaks down faster than other lentils, giving khichdi its signature creamy texture.
+- Ghee at the end is non-negotiable — it adds richness and helps the flavours bloom.
+- Leftovers reheat beautifully with a splash of water.
+    `,
+    category: 'lunch',
+    tags: ['indian', 'rice', 'lentils', 'vegetarian', 'one-pot'],
+    author: authors.arijit,
+    publishedAt: '2026-06-28',
+    readingTime: 6,
+    coverImage: 'https://images.unsplash.com/photo-1645177628172-a94c1f796dfc?w=800&auto=format&fit=crop',
+    featured: false,
+  },
 ];
