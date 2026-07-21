@@ -8,6 +8,43 @@ const navLinks = [
   { to: '/about', label: 'About' },
 ];
 
+function BobLogo() {
+  return (
+    <a
+      href="https://www.ibm.com/products/watsonx/bob"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bob-badge"
+      title="Powered by IBM Bob"
+    >
+      {/* IBM Bob "B" monogram */}
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 32 32"
+        width="28"
+        height="28"
+        aria-label="IBM Bob"
+        role="img"
+      >
+        <rect width="32" height="32" rx="6" fill="#0f62fe" />
+        <text
+          x="50%"
+          y="50%"
+          dominantBaseline="central"
+          textAnchor="middle"
+          fill="#ffffff"
+          fontFamily="'IBM Plex Sans', Arial, sans-serif"
+          fontWeight="700"
+          fontSize="18"
+        >
+          B
+        </text>
+      </svg>
+      <span className="bob-badge-label">IBM Bob</span>
+    </a>
+  );
+}
+
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -42,6 +79,8 @@ export default function Header() {
             </NavLink>
           ))}
         </nav>
+
+        <BobLogo />
       </div>
     </header>
   );
