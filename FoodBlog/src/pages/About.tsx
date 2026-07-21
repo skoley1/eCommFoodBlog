@@ -20,13 +20,13 @@ export default function About() {
           <div className="about-story__text">
             <h2>How it started</h2>
             <p>
-              Food@eComm was born in 2020 when Sofia, Marco and Priya — three food lovers from
+              Food@eComm was born in 2020 when Sudeep, Arijit and Nilanjan — three food lovers from
               different corners of the world — decided to stop keeping their best recipes to themselves.
               What began as a shared notes document quickly grew into a full-blown food blog with a
               mission: to make genuinely good cooking accessible to everyone.
             </p>
             <p>
-              We believe that great food doesn't require a Michelin star kitchen or rare ingredients.
+              We believe that great food doesn't require a MasterChef star kitchen or rare ingredients.
               It requires curiosity, patience, and a willingness to taste as you go. Every recipe on
               this site has been made in a home kitchen, eaten enthusiastically, and tweaked until it
               earned its place here.
