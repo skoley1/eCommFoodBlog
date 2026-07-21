@@ -220,7 +220,7 @@ The seasoning blend does all the heavy lifting here.
     content: `
 ## Murgh Makhani — The King of Curries
 
-Butter Chicken (Murgh Makhani) was invented in the 1950s at a Delhi restaurant and has since become one of the world's most loved dishes. Here's how to make it taste like a five-star restaurant in your own kitchen.
+Butter Chicken (Murgh Makhani) was invented in the 1950s at a Delhi restaurant and has since become one of India's most loved dishes. Here's how to make it taste like a five-star restaurant in your own kitchen.
 
 ### Ingredients (serves 4)
 

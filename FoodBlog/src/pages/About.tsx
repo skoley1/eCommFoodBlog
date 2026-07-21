@@ -21,7 +21,7 @@ export default function About() {
             <h2>How it started</h2>
             <p>
               Food@eComm was born in July 2026 when Sudeep, Arijit, Nilanjan, Arpan and Javeed - five food lovers from
-              different corners of the world — decided to stop keeping their best recipes to themselves.
+              different corners of India — decided to stop keeping their best recipes to themselves.
               What began as a shared notes document quickly grew into a full-blown food blog with a
               mission: to make genuinely good cooking accessible to everyone.
             </p>
