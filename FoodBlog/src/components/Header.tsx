@@ -44,7 +44,9 @@ export default function Header() {
           ))}
         </nav>
 
-        <img src={bobLogo} alt="IBM Bob" className="bob-logo" />
+        <a href="https://bob.ibm.com/?utm_content=SRCWW&p1=Search&p4=2447864445311&p5=e&p9=191260675850&gclsrc=aw.ds&gad_source=1&gad_campaignid=23808941956&gclid=CjwKCAjwsfzSBhB5EiwAOGyqSa8n9lX0HU8KJq17hQd0C4pBHy-d7O0-3QlMzoCF10kyHhwIj96CYhoCnfgQAvD_BwE" target="_blank" rel="noopener noreferrer">
+          <img src={bobLogo} alt="IBM Bob" className="bob-logo" />
+        </a>
       </div>
     </header>
   );
