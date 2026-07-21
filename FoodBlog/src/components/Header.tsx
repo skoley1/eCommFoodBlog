@@ -16,7 +16,7 @@ export default function Header() {
       <div className="header-inner container">
         <Link to="/" className="logo" onClick={() => setMenuOpen(false)}>
           <span className="logo-icon">🍴</span>
-          <span className="logo-text">Savoury Stories</span>
+          <span className="logo-text">Food@eComm</span>
         </Link>
 
         <button

@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-brand">
           <Link to="/" className="logo">
             <span className="logo-icon">🍴</span>
-            <span className="logo-text">Savoury Stories</span>
+            <span className="logo-text">Food@eComm</span>
           </Link>
           <p className="footer-tagline">Real recipes. Real flavours. Real joy.</p>
         </div>
@@ -29,7 +29,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Savoury Stories. Made with ❤️ and good food.</p>
+        <p>© {new Date().getFullYear()} Food@eComm. Made with ❤️ and good food.</p>
       </div>
     </footer>
   );
