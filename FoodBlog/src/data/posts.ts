@@ -208,7 +208,7 @@ The seasoning blend does all the heavy lifting here.
     author: authors.sofia,
     publishedAt: '2026-04-10',
     readingTime: 5,
-    coverImage: 'https://images.unsplash.com/photo-1541519227354-08fa5d50c820?w=800&auto=format&fit=crop',
+    coverImage: 'https://images.unsplash.com/photo-1603046891744-1f608729e5b4?w=800&auto=format&fit=crop',
     featured: false,
   },
   {
