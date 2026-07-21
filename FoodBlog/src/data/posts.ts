@@ -146,7 +146,7 @@ Pour over ice in tall glasses. Garnish with a pinch of cardamom, a strand of saf
     author: authors.priya,
     publishedAt: '2026-04-02',
     readingTime: 4,
-    coverImage: 'https://images.unsplash.com/photo-1527661591475-527312dd65f5?w=800&auto=format&fit=crop',
+    coverImage: 'https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?w=800&auto=format&fit=crop',
     featured: false,
   },
   {
