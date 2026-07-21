@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import bobLogo from '../assets/Boblogo.png';
 import './Header.css';
 
 const navLinks = [
@@ -42,6 +43,8 @@ export default function Header() {
             </NavLink>
           ))}
         </nav>
+
+        <img src={bobLogo} alt="IBM Bob" className="bob-logo" />
       </div>
     </header>
   );

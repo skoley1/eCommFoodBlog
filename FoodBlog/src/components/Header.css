@@ -136,3 +136,11 @@
     border-bottom: none;
   }
 }
+
+/* Bob logo */
+.bob-logo {
+  height: 32px;
+  width: auto;
+  flex-shrink: 0;
+  display: block;
+}
