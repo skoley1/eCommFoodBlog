@@ -13,7 +13,7 @@ const renderFooter = () =>
 describe('Footer component', () => {
   it('renders the site brand name', () => {
     renderFooter();
-    expect(screen.getAllByText('Savoury Stories').length).toBeGreaterThan(0);
+    expect(screen.getAllByText('Food@eComm').length).toBeGreaterThan(0);
   });
 
   it('renders the tagline', () => {
@@ -52,7 +52,7 @@ describe('Footer component', () => {
 
   it('renders the footer copyright text', () => {
     renderFooter();
-    expect(screen.getAllByText(/Savoury Stories/).length).toBeGreaterThan(0);
+    expect(screen.getAllByText(/Food@eComm/).length).toBeGreaterThan(0);
   });
 
   it('renders "Explore" section heading', () => {

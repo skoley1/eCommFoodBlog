@@ -9,7 +9,7 @@ export default function About() {
       {/* Hero */}
       <div className="page-hero">
         <div className="container">
-          <h1>About Savoury Stories</h1>
+          <h1>About Food@eComm</h1>
           <p>Three cooks, one blog, and a shared passion for putting great food on the table.</p>
         </div>
       </div>
@@ -20,7 +20,7 @@ export default function About() {
           <div className="about-story__text">
             <h2>How it started</h2>
             <p>
-              Savoury Stories was born in 2020 when Sofia, Marco and Priya — three food lovers from
+              Food@eComm was born in 2020 when Sofia, Marco and Priya — three food lovers from
               different corners of the world — decided to stop keeping their best recipes to themselves.
               What began as a shared notes document quickly grew into a full-blown food blog with a
               mission: to make genuinely good cooking accessible to everyone.

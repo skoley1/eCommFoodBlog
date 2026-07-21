@@ -14,7 +14,7 @@ const renderHeader = () =>
 describe('Header component', () => {
   it('renders the site logo text', () => {
     renderHeader();
-    expect(screen.getByText('Savoury Stories')).toBeInTheDocument();
+    expect(screen.getByText('Food@eComm')).toBeInTheDocument();
   });
 
   it('renders the logo icon', () => {

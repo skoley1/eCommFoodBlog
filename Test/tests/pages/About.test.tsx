@@ -15,7 +15,7 @@ const renderAbout = () =>
 describe('About page', () => {
   it('renders the page heading', () => {
     renderAbout();
-    expect(screen.getByRole('heading', { name: 'About Savoury Stories' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'About Food@eComm' })).toBeInTheDocument();
   });
 
   it('renders the sub-headline', () => {
